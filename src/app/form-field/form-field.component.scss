@@ -1,0 +1,21 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 8.33%);
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.label {
+  grid-column: 1 / span 4;
+  padding-left: 10px;
+}
+
+.data {
+  grid-column: 5 / span 8;
+  padding-left: 10px;
+}
+
+:host ::ng-deep app-fa-input {
+  border: solid .5px;
+}

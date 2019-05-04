@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormFieldComponent } from './form-field/form-field.component';
+import { FaInputComponent } from './form-field/fa-input/fa-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormFieldComponent,
+    FaInputComponent
   ],
   imports: [
     BrowserModule,
